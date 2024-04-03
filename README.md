@@ -1,5 +1,3 @@
-/////////////////  /My Start ////////////////
-
 # Phase 2 Project: Classic Albums 
 Classic Albums React App (or... your favorite! Bias is fine!).
 
@@ -11,13 +9,12 @@ Don't hesitate to add your favorite album to the mix! Even if it hasn't earned w
 
 Join us and contribute to the ever-growing collection of beloved albums. Submit away and ignite conversations among fellow music aficionados!
 
-
 ## Functionality
-Album Submission: Are we missing any albums? Maybe you consider other albums even more classic than the ones we have up here! Let's see your musical taste. Remember music is subjective so we accept any and all musical bias here! Submit an album that YOU consider classic and lets share our tastes in music! 
+Album Submission: Have we overlooked any albums? Perhaps you believe there are other albums even more deserving of the "classic" title than those currently featured here! We're eager to discover your musical preferences. Remember, music is subjective, so we welcome all musical biases. Share an album that YOU deem as classic, and let's celebrate our diverse tastes in music together! Submit now and let the music discussions begin!
 
-Filtering: Sort by album sales and if the album went diamond. Now you might have your favorite classic album, but has it gone diamond? Does it matter? This is where we love to discuss all these things!
+Filtering: Arrange albums by sales figures and diamond certifications. You might have a personal favorite classic album, but has it achieved diamond status? Does it hold significance for you? Here's where we delve into these discussions and more! Join us as we explore the intersection of album popularity and personal preference. Let's discuss!
 
-Navigation: Navigate this single page application with ease by using the navigation bar. This will route you to where you want to go on the page!
+Navigation: Seamlessly navigate through this single-page application using the convenient navigation bar. It's your gateway to effortlessly accessing different sections of the page. Let the navigation bar guide you to where you want to go with ease!
 
 ## Installation and Running the JSON Server
 To run the Classic Albums App. app, follow these steps:
@@ -37,15 +34,14 @@ json-server --watch db.json
 This will start the JSON server, and your Album data will be served from http://localhost:3000/albums.
 Open another terminal window and run: npm start and open on the next available port (3001)
 
-
 Open the App:
 Open web browser and visit http://localhost:3000 to engage with the
 
 ## Acknowledgments
-Artists: All the artists who have provided incredible, timeless, unique vibes.
+A heartfelt thank you to all the artists who have graced us with their incredible, timeless, and unique vibes. Your contributions have enriched the world of music and inspired countless listeners.
+
 
 ## Contributing
-Contribute to Classic Albums App. by submitting bugs, feature requests, or pull requests. Let's get the music community discussing some great music!
+Contribute to the Classic Albums App by submitting bugs, feature requests, or pull requests. Let's engage the music community in discussions about great music! Your input is invaluable in making this platform better for everyone. Join us in shaping the future of music appreciation!
 
 ## Navigate the App (Demo)
-![Demo](Phase1ProjectGif.gif)
