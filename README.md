@@ -1,6 +1,4 @@
-# Phase 2 Project: Classic Albums 
-Classic Albums React App (or... your favorite! Bias is fine!).
-
+# Phase 2 Project: Classic Albums App
 Welcome to the Classic Albums React App, where you can share your favorite albums with fellow music enthusiasts! Whether it's a universally acclaimed classic or your personal bias, all submissions are welcome here.
 
 Our frontend web application allows you to easily submit new albums and explore a curated list of 'classic' albums, determined by sales figures. Each entry includes details such as the artist, album name, and track count.
