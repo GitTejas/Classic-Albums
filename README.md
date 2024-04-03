@@ -40,8 +40,7 @@ Open web browser and visit http://localhost:3000 to engage with the
 ## Acknowledgments
 A heartfelt thank you to all the artists who have graced us with their incredible, timeless, and unique vibes. Your contributions have enriched the world of music and inspired countless listeners.
 
-
 ## Contributing
-Contribute to the Classic Albums App by submitting bugs, feature requests, or pull requests. Let's engage the music community in discussions about great music! Your input is invaluable in making this platform better for everyone. Join us in shaping the future of music appreciation!
+Contribute to the Classic Albums App by submitting bugs, feature requests, or pull requests. Let's engage the music community in discussions about great music. Your input is invaluable in making this platform better for everyone. Join us in shaping the future of music appreciation!
 
 ## Navigate the App (Demo)
