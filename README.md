@@ -34,8 +34,6 @@ json-server --watch db.json
 This will start the JSON server, and your Album data will be served from http://localhost:3000/albums.
 Open another terminal window and run: npm start and open on the next available port (3001)
 
-Open the App:
-Open web browser and visit http://localhost:3000 to engage with the
 
 ## Acknowledgments
 A heartfelt thank you to all the artists who have graced us with their incredible, timeless, and unique vibes. Your contributions have enriched the world of music and inspired countless listeners.
