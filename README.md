@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+/////////////////  /My Start ////////////////
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Phase 2 Project: Classic Albums 
+Classic Albums React App (or... your favorite! Bias is fine!).
 
-## Available Scripts
+Welcome to the Classic Albums React App, where you can share your favorite albums with fellow music enthusiasts! Whether it's a universally acclaimed classic or your personal bias, all submissions are welcome here.
 
-In the project directory, you can run:
+Our frontend web application allows you to easily submit new albums and explore a curated list of 'classic' albums, determined by sales figures. Each entry includes details such as the artist, album name, and track count.
 
-### `npm start`
+Don't hesitate to add your favorite album to the mix! Even if it hasn't earned widespread recognition as a "classic," your submission is valuable. Let's spark engaging discussions about overlooked gems and timeless favorites alike.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Join us and contribute to the ever-growing collection of beloved albums. Submit away and ignite conversations among fellow music aficionados!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Functionality
+Album Submission: Are we missing any albums? Maybe you consider other albums even more classic than the ones we have up here! Let's see your musical taste. Remember music is subjective so we accept any and all musical bias here! Submit an album that YOU consider classic and lets share our tastes in music! 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Filtering: Sort by album sales and if the album went diamond. Now you might have your favorite classic album, but has it gone diamond? Does it matter? This is where we love to discuss all these things!
 
-### `npm run build`
+Navigation: Navigate this single page application with ease by using the navigation bar. This will route you to where you want to go on the page!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Running the JSON Server
+To run the Classic Albums App. app, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the Repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy SSH code 
+git clone [repository-url]
 
-### `npm run eject`
+cd phase-2-classic-albums-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install Dependencies:
+npm install
+Run the JSON Server:
+json-server --watch db.json
+This will start the JSON server, and your Album data will be served from http://localhost:3000/albums.
+Open another terminal window and run: npm start and open on the next available port (3001)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open the App:
+Open web browser and visit http://localhost:3000 to engage with the
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgments
+Artists: All the artists who have provided incredible, timeless, unique vibes.
 
-## Learn More
+## Contributing
+Contribute to Classic Albums App. by submitting bugs, feature requests, or pull requests. Let's get the music community discussing some great music!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Navigate the App (Demo)
+![Demo](Phase1ProjectGif.gif)

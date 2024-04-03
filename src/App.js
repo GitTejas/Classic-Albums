@@ -1,7 +1,17 @@
+import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
+const [albums, setAlbums] = useState([])
+
+useEffect(() => {
+  fetch("http://localhost:3000/albums")
+  .then(resp => resp.json())
+  .then(setAlbums)
+}, [])
+
   return (
     <div className="App">
       <header className="App-header">
