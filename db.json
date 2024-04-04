@@ -5,7 +5,7 @@
         "name": "Thriller",
         "artist": "Michael Jackson",
         "sales": 100000000,
-        "trackListAmount": 9,
+        "trackCount": 9,
         "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
       },
       {
@@ -13,7 +13,7 @@
         "name": "Hybrid Theory",
         "artist": "Linkin Park",
         "sales": 25000000,
-        "trackListAmount": 12,
+        "trackCount": 12,
         "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg"
       },
       {
@@ -21,7 +21,7 @@
         "name": "The Eminem Show",
         "artist": "Eminem",
         "sales": 27000000,
-        "trackListAmount": 20,
+        "trackCount": 20,
         "image": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg"
       },
       {
@@ -29,7 +29,7 @@
         "name": "Millennium",
         "artist": "Backstreet Boys",
         "sales": 500000000,
-        "trackListAmount": 12,
+        "trackCount": 12,
         "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"
       },
       {
@@ -37,7 +37,7 @@
         "name": "The Dark Side of the Moon",
         "artist": "Pink Floyd",
         "sales": 500000000,
-        "trackListAmount": 12,
+        "trackCount": 12,
         "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
       }
     ]
