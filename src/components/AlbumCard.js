@@ -1,22 +1,26 @@
-// import React from "react";
+import React from "react";
+// import { Link, useOutletContext } from "react-router-dom";
 
-// function AlbumCard({album}) {
+
+function AlbumCard({album}) {
   
-// const {id, albumName, artistName, sales, trackCount} = album
+const {id, name, image, artist, sales, trackCount} = album
 
-//   return (
-//     <div className="card">
-//       <h2>{name}</h2>
-//       <img
-//         src={image}
-//         alt={name}
-//         className="album-avatar"
-//       />
-//       <p>{likes} Likes </p>
-//       <button className="like-btn">Like {"<3"}</button>
-//       <button className="del-btn">Donate to GoodWill</button>
-//     </div>
-//   );
-// }
+  return (
+    <div className="card">
+      <h2>{name}</h2>
+      <h3>{artist}</h3>
+      <img
+        src={image}
+        alt={name}
+        className="album-avatar"
+      />
+      <p>{trackCount} tracks </p>
+      <span>{sales} sales</span>
+      <button className="like-btn">Like {"<3"}</button>
+      <button className="del-btn">Donate to GoodWill</button>
+    </div>
+  );
+}
 
-// export default AlbumCard;
+export default AlbumCard;

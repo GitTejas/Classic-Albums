@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Header from './Header'
+import AlbumContainer from './AlbumContainer';
+// import Header from './Header'
 // import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     </div>
       <h1>Classic Albums</h1>
       <br />
+      <AlbumContainer albums={albums} />
       {/* <AlbumContainer  />
       <br />
       <AlbumForm /> */}
