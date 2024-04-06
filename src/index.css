@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; /* Center align vertically */
-  background: linear-gradient(to right, #ff6f61, #fda085); /* Gradient background */
+  background: linear-gradient(to right, #d4cafb, #1e1e1e); /* Gradient background */
   height: 100px;
   padding: 1rem;
   color: white;
