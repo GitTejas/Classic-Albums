@@ -1,79 +1,75 @@
 body {
   margin: 0;
-  font-family: monospace;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Change the background color */
 }
-
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 80px; /* Reduce header height */
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em; /* Increase font size */
 }
-
-.App-intro {
-  font-size: large;
-}
-
 
 #album-header {
   display: flex;
   justify-content: center;
-  background: #515da2;
-  opacity: 0.8;
-  height: 7rem;
+  align-items: center; /* Center align vertically */
+  background: linear-gradient(to right, #ff6f61, #fda085); /* Gradient background */
+  height: 100px;
   padding: 1rem;
-}
-
-#album-header img {
-  height: 6rem;
-  width: auto;
+  color: white;
 }
 
 #album-collection {
-  margin: 2rem;
+  margin: 2rem auto; /* Center align */
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap */
+  justify-content: center;
 }
 
 .card {
   text-align: center;
-  border: grey solid 1px;
+  border: none; /* Remove border */
   padding: 1rem;
   width: 15rem;
-  height: 25rem;
-  display: inline-grid;
-  margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52;
+  height: auto; /* Auto height */
+  margin: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #fff; /* White background */
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Add hover effect */
 }
 
 .album-avatar {
-  justify-self: center;
-  height: 12rem;
-  width: auto;
+  height: 200px;
+  width: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
 }
 
-button {
-  position: relative;
-  background-color: #e04b52;
-  border: none;
-  border-radius: 5px;
-  height: 3rem;
-  width: max-content;
-  color: whitesmoke;
-  font-size: 18px;
-  justify-self: center;
+.card-content {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  font-size: 0.9em;
 }
 
 .buttonContainer {
@@ -81,48 +77,29 @@ button {
   padding: 1rem;
 }
 
-button:hover {
-  background-color: whitesmoke;
-  border: #e04b52 solid 1px;
-  color: #e04b52;
-}
-
-.container {
-  padding: 1rem;
-  width: stretch;
-  height: auto;
-  background: #515da2;
-  opacity: 0.8;
-}
-
-.add-album-form {
-  width: 80%;
-}
-
-.submit {
-  position: relative;
-  background-color: #e04b52;
+.button {
+  background-color: #ff6f61;
+  border: none;
   border-radius: 5px;
-  height: 2rem;
-  width: max-content;
-  color: whitesmoke;
+  height: 3rem;
+  width: 150px;
+  color: white;
   font-size: 18px;
-  justify-self: center;
-  font-family: monospace;
-  margin: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition */
 }
 
-.submit:hover {
-  background-color: whitesmoke;
-  border: #e04b52 solid 1px;
-  color: #e04b52;
+.button:hover {
+  background-color: #e04b52; /* Darken color on hover */
 }
 
 .input-text {
+  border: 1px solid #ccc; /* Add border */
   border-radius: 5px;
   height: 2rem;
   width: 60%;
   font-size: 18px;
-  font-family: monospace;
-  margin: 3px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  box-sizing: border-box; /* Include padding in width calculation */
 }

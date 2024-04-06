@@ -21,8 +21,8 @@ function App() {
         alt="albums header"
       />
     </div>
-      <h1>Classic Albums</h1>
-      <br />
+      {/* <h1>Classic Albums</h1>
+      <br /> */}
       <AlbumContainer albums={albums} />
       <AlbumForm /> 
     </>
