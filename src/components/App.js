@@ -13,12 +13,17 @@ function App() {
 
   return (
     <>
-      <Header />
+    <div id="album-header">
+      <img
+        src="https://i.imgur.com/M5maHKl.png"
+        alt="albums header"
+      />
+    </div>
       <h1>Classic Albums</h1>
       <br />
-      <AlbumContainer  />
+      {/* <AlbumContainer  />
       <br />
-      <AlbumForm />
+      <AlbumForm /> */}
     </>
   );
 }
