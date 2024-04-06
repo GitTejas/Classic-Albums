@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AlbumContainer from './AlbumContainer';
 import AlbumForm from './AlbumForm';
-// import Header from './Header'
-// import './App.css';
+import NavBar from './NavBar';
 
 function App() {
   const [albums, setAlbums] = useState([]);
@@ -15,6 +14,7 @@ function App() {
 
   return (
     <>
+    {/* <NavBar /> */}
     <div id="album-header">
       <img
         src="https://i.imgur.com/M5maHKl.png"
