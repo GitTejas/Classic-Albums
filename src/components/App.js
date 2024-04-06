@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AlbumContainer from './AlbumContainer';
+import AlbumForm from './AlbumForm';
 // import Header from './Header'
 // import './App.css';
 
@@ -23,9 +24,7 @@ function App() {
       <h1>Classic Albums</h1>
       <br />
       <AlbumContainer albums={albums} />
-      {/* <AlbumContainer  />
-      <br />
-      <AlbumForm /> */}
+      <AlbumForm /> 
     </>
   );
 }
