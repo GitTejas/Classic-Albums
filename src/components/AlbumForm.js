@@ -72,7 +72,7 @@ function AlbumForm({ onAddAlbum }) {
           type="text"
           name="image"
           value={trackCount}
-          placeholder="Enter the number of tracks..."
+          placeholder="Enter number of tracks..."
           className="input-text"
           onChange={e => setTrackCount(e.target.value)}
         />
