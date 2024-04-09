@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   // function onAddAlbum(newAlbum) {
-  //   fetch(`http://localhost:3000/albums`, {
+  //   fetch("http://localhost:3000/albums", {
   //     method: "POST",
   //     headers: {
   //       Accepts: "application/json",
@@ -27,7 +27,6 @@ function App() {
   //   .then (json => setAlbums([json, ...albums]))
   // }
 
-  
   return (
     <>
     <div id="album-header">
@@ -36,7 +35,7 @@ function App() {
         alt="albums header"
       />
     </div>
-      <div class="nav-container">
+      <div className="nav-container">
       <NavBar />
 </div>
       <Outlet context = {albums}/>

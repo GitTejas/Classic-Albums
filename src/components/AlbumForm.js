@@ -1,31 +1,33 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-function AlbumForm({onAddAlbum}) {
+function AlbumForm({ onAddAlbum }) {
+  const [albumName, setAlbumName] = useState("");
+  const [artistName, setArtistName] = useState("");
+  const [image, setImage] = useState("");
+  const [sales, setSales] = useState("");
+  const [trackCount, setTrackCount] = useState("");
 
-const [albumName, setAlbumName] = useState("")
-const [artistName, setArtistName] = useState("")
-const [image, setImage] = useState("")
-const [sales, setSales] = useState("")
-const [trackCount, setTrackCount] = useState("")
+  function handleSubmit(e) {
+    e.preventDefault();
 
+    const newAlbum = {
+      name: albumName,
+      artist: artistName,
+      image: image,
+      sales: sales,
+      trackCount: trackCount
+    };
 
-function handleSubmit(e) {
-  e.preventDefault()
+    // Call the onAddAlbum function with the new album data
+    onAddAlbum(newAlbum);
 
-  const newAlbum = {
-    name: albumName,
-    artist: artistName,
-    image: image,
-    sales: sales,
-    trackCount: trackCount
+    // Reset form fields after submission
+    setAlbumName("");
+    setArtistName("");
+    setImage("");
+    setSales("");
+    setTrackCount("");
   }
-  onAddAlbum()
-  setAlbumName("")
-  setArtistName("")
-  setImage("")
-  setSales("")
-  setTrackCount("")
-}
 
   return (
     <div className="container">
@@ -86,7 +88,4 @@ function handleSubmit(e) {
     </div>
   );
 }
-
-
-
 export default AlbumForm;

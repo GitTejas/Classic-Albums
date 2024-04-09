@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link, useOutletContext } from "react-router-dom";
 
 function AlbumCard({album}) {
   

@@ -1,44 +1,44 @@
 {
-    "albums": [
-      {
-        "id": 1,
-        "name": "Thriller",
-        "artist": "Michael Jackson",
-        "sales": 100000000,
-        "trackCount": 9,
-        "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
-      },
-      {
-        "id": 2,
-        "name": "Hybrid Theory",
-        "artist": "Linkin Park",
-        "sales": 25000000,
-        "trackCount": 12,
-        "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg"
-      },
-      {
-        "id": 3,
-        "name": "The Eminem Show",
-        "artist": "Eminem",
-        "sales": 27000000,
-        "trackCount": 20,
-        "image": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Millennium",
-        "artist": "Backstreet Boys",
-        "sales": 500000000,
-        "trackCount": 12,
-        "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"
-      },
-      {
-        "id": 5,
-        "name": "The Dark Side of the Moon",
-        "artist": "Pink Floyd",
-        "sales": 500000000,
-        "trackCount": 12,
-        "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
-      }
-    ]
-  }
+  "albums": [
+    {
+      "id": "1",
+      "name": "Thriller",
+      "artist": "Michael Jackson",
+      "sales": 100000000,
+      "trackCount": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
+    },
+    {
+      "id": "2",
+      "name": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "sales": 25000000,
+      "trackCount": 12,
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg"
+    },
+    {
+      "id": "3",
+      "name": "The Eminem Show",
+      "artist": "Eminem",
+      "sales": 27000000,
+      "trackCount": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Millennium",
+      "artist": "Backstreet Boys",
+      "sales": 500000000,
+      "trackCount": 12,
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"
+    },
+    {
+      "id": "5",
+      "name": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "sales": 500000000,
+      "trackCount": 12,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    }
+  ]
+}
