@@ -1,17 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import AlbumForm from './AlbumForm';
-import NavBar from './NavBar';
-import { Outlet } from "react-router-dom"
+import AlbumContainer from './AlbumContainer';
 
-function FormDisplay() {
-  const [albums, setAlbums] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/albums")
-      .then(resp => resp.json())
-      .then(setAlbums);
-  }, []);
-
+function FormDisplay({ albums, setAlbums }) {
   function onAddAlbum(newAlbum) {
     fetch("http://localhost:3000/albums", {
       method: "POST",
@@ -22,18 +13,17 @@ function FormDisplay() {
       body: JSON.stringify(newAlbum)
     })
     .then(resp => resp.json())
-    .then(json => setAlbums([json, ...albums]))
-    .catch(error => console.error("Error adding album:", error));
+    .then(json => setAlbums([json, ...albums])) // Update the albums state
   }
 
   return (
     <>
-      {/* <NavBar /> */}
       <div id="album-form-container">
         <div className="album-form-wrapper">
           <AlbumForm onAddAlbum={onAddAlbum} className="album-form" />
         </div>
       </div>
+      <AlbumContainer albums={albums} />
     </>
   );
 }

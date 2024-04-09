@@ -18,7 +18,6 @@ function AlbumForm({ onAddAlbum }) {
       trackCount: trackCount
     };
 
-    // Call the onAddAlbum function with the new album data
     onAddAlbum(newAlbum);
 
     // Reset form fields after submission
