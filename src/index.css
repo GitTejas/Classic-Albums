@@ -19,16 +19,39 @@ body {
   font-size: 2em; /* Increase font size */
 }
 
+
 #album-header {
   display: flex;
   justify-content: center;
   align-items: center; /* Center align vertically */
-  background: linear-gradient(to right, #d4cafb, #1e1e1e); /* Gradient background */
+  background: linear-gradient(to right, #ffffff, #1e1e1e); /* Gradient background */
   height: 100px;
   padding: 1rem;
   color: white;
 }
 
+.album-form {
+  width: 50%; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.album-form-wrapper {
+  width: 50%; /* Adjust width as needed */
+  margin-right: 0%; /* Center horizontally */
+}
+
+#album-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align to the bottom */
+  margin-bottom: -20px; /* Adjust based on desired spacing */
+  background-color: #ffffff;
+}
 #album-collection {
   margin: 2rem auto; /* Center align */
   display: flex;
@@ -77,6 +100,7 @@ body {
   padding: 1rem;
 }
 
+
 .button {
   background-color: #ff6f61;
   border: none;
@@ -87,6 +111,7 @@ body {
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Add transition */
+  margin-top: 1rem; /* Add some space above the button */
 }
 
 .button:hover {
@@ -97,9 +122,18 @@ body {
   border: 1px solid #ccc; /* Add border */
   border-radius: 5px;
   height: 2rem;
-  width: 60%;
-  font-size: 18px;
-  margin: 0.5rem;
+  max-width: 50%; /* Adjusted width */
+  font-size: 16px;
+  margin: 0.5rem 0; /* Adjust vertical margin */
   padding: 0.5rem;
   box-sizing: border-box; /* Include padding in width calculation */
+  background-color: #ddf5ff; /* Light blue (sky blue) background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specify font-family */
+}
+
+.cool-text {
+  color: yellow;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  letter-spacing: 2px;
 }

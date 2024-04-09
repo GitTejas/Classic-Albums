@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import AlbumContainer from './AlbumContainer';
-import AlbumForm from './AlbumForm';
 import NavBar from './NavBar';
+import {Outlet} from "react-router-dom"
+import AlbumForm from './AlbumForm';
+import FormDisplay from './FormDisplay';
 
 function App() {
   const [albums, setAlbums] = useState([]);
@@ -22,9 +24,14 @@ function App() {
     </div>
       {/* <h1>Classic Albums</h1>
       <br /> */}
+      <div class="nav-container">
       <NavBar />
+  {/* <a href="#" class="nav-link">Link 1</a>
+  <a href="#" class="nav-link">Link 2</a> */}
+</div>
+      <Outlet context = {albums}/>
       <AlbumContainer albums={albums} />
-      <AlbumForm /> 
+      {/* <AlbumForm />  */}
     </>
   );
 }

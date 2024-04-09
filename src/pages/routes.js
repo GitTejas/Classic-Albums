@@ -1,7 +1,7 @@
 import App from "../components/App"
 import AlbumForm from "../components/AlbumForm"
 import ErrorPage from "./ErrorPage"
-
+import FormDisplay from "../components/FormDisplay";
 
 const routes = [
     {
@@ -10,8 +10,8 @@ const routes = [
         errorElement: <ErrorPage />,
         children: [
              {
-                path: "/albumform",
-                element: <AlbumForm />
+                path: "/form",
+                element: <FormDisplay />
             }
         ]
     }

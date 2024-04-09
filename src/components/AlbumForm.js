@@ -5,8 +5,8 @@ function AlbumForm() {
 const [albumName, setAlbumName] = useState("")
 const [artistName, setArtistName] = useState("")
 const [image, setImage] = useState("")
-const [sales, setSales] = useState(0)
-const [trackCount, setTrackCount] = useState(0)
+const [sales, setSales] = useState("")
+const [trackCount, setTrackCount] = useState("")
 
 
 function handleSubmit(e) {
@@ -15,14 +15,14 @@ function handleSubmit(e) {
   setAlbumName("")
   setArtistName("")
   setImage("")
-  setSales(0)
-  setTrackCount(0)
+  setSales("")
+  setTrackCount("")
 }
 
   return (
     <div className="container">
       <form className="add-album-form" onSubmit={handleSubmit}>
-        <h3>Submit an album!</h3>
+      <h3 className="cool-text">Submit an album!</h3>
         <input
           type="text"
           name="name"
@@ -45,7 +45,7 @@ function handleSubmit(e) {
           type="text"
           name="image"
           value={image}
-          placeholder="Enter an album's image URL..."
+          placeholder="Enter an artwork URL..."
           className="input-text"
           onChange={e => setImage(e.target.value)}
         />
@@ -78,5 +78,7 @@ function handleSubmit(e) {
     </div>
   );
 }
+
+
 
 export default AlbumForm;

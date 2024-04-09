@@ -1,25 +1,32 @@
-.nav-link {
+.nav-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
     display: inline-block;
     box-sizing: border-box;
     width: 70px;
     padding: 10px; 
     margin: 0 6px 6px;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+    background: linear-gradient(to right, #85b6ff, #0036cb); /* Match gradient background */
     text-decoration: none;
     text-align: center;
-    font-size: min(10vw, 15px);
+    font-size: 1em; /* Match font size */
     color: white;
-    border-radius: 20px; 
-    border: 2px solid #ff7e5f; 
-    transition: all 0.3s ease; 
-}
-
-.nav-link:hover {
-    background: linear-gradient(135deg, #feb47b, #ff7e5f); 
+    border-radius: 10px; /* Match rounded corners */
+    border: none; /* Remove border */
+    transition: all 0.3s ease; /* Match transition */
+  }
+  
+  .nav-link:hover {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Match hover gradient */
     color: black; 
-}
-
-.active {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+  }
+  
+  .active {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Match active gradient */
     color: black;
-}
+  }
+
+  
