@@ -16,8 +16,6 @@ const {id, name, image, artist, sales, trackCount} = album
       />
       <p>{trackCount} Tracks </p>
       <span>{sales} Sales</span>
-      {/* <button className="like-btn">Like {"<3"}</button>
-      <button className="del-btn">Donate to GoodWill</button> */}
     </div>
   );
 }

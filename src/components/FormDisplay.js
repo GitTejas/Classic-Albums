@@ -5,14 +5,6 @@ import NavBar from './NavBar';
 import {Outlet} from "react-router-dom"
 
 function FormDisplay() {
-  const [albums, setAlbums] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/albums")
-      .then(resp => resp.json())
-      .then(setAlbums);
-  }, []);
-
   return (
     <>
       <div id="album-header">
