@@ -19,7 +19,6 @@ body {
   font-size: 2em; /* Increase font size */
 }
 
-
 #album-header {
   display: flex;
   justify-content: center;
@@ -39,10 +38,9 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .album-form-wrapper {
   width: 50%; /* Adjust width as needed */
-  margin-right: 0%; /* Center horizontally */
+  margin-right: -41%; /* Center horizontally */
 }
 
 #album-form-container {
@@ -99,7 +97,6 @@ body {
   text-align: center;
   padding: 1rem;
 }
-
 
 .button {
   background-color: #ff6f61;

@@ -22,16 +22,11 @@ function App() {
         alt="albums header"
       />
     </div>
-      {/* <h1>Classic Albums</h1>
-      <br /> */}
       <div class="nav-container">
       <NavBar />
-  {/* <a href="#" class="nav-link">Link 1</a>
-  <a href="#" class="nav-link">Link 2</a> */}
 </div>
       <Outlet context = {albums}/>
       <AlbumContainer albums={albums} />
-      {/* <AlbumForm />  */}
     </>
   );
 }
