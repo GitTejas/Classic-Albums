@@ -14,6 +14,20 @@ function App() {
       .then(setAlbums);
   }, []);
 
+  // function onAddAlbum(newAlbum) {
+  //   fetch(`http://localhost:3000/albums`, {
+  //     method: "POST",
+  //     headers: {
+  //       Accepts: "application/json",
+  //       "Content-Type": "application/json"
+  //     },
+  //     body: JSON.stringify(newAlbum)
+  //   })
+  //   .then(resp => resp.json())
+  //   .then (json => setAlbums([json, ...albums]))
+  // }
+
+  
   return (
     <>
     <div id="album-header">

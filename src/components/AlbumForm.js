@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function AlbumForm() {
+function AlbumForm({onAddAlbum}) {
 
 const [albumName, setAlbumName] = useState("")
 const [artistName, setArtistName] = useState("")
@@ -11,7 +11,15 @@ const [trackCount, setTrackCount] = useState("")
 
 function handleSubmit(e) {
   e.preventDefault()
-  // addNewAlbum()
+
+  const newAlbum = {
+    name: albumName,
+    artist: artistName,
+    image: image,
+    sales: sales,
+    trackCount: trackCount
+  }
+  onAddAlbum()
   setAlbumName("")
   setArtistName("")
   setImage("")

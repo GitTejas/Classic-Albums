@@ -5,21 +5,28 @@ import NavBar from './NavBar';
 import {Outlet} from "react-router-dom"
 
 function FormDisplay() {
+
+// function onAddAlbum(newAlbum) {
+//   fetch(`http://localhost:3000/albums`, {
+//     method: "POST",
+//     headers: {
+//       Accepts: "application/json",
+//       "Content-Type": "application/json"
+//     },
+//     body: JSON.stringify(newAlbum)
+//   })
+//   .then(resp => resp.json())
+//   .then (json => setAlbums([json, ...albums]))
+// }
+
+
   return (
     <>
-      {/* <div id="album-header">
-        <img
-          src="https://i.imgur.com/M5maHKl.png"
-          alt="albums header"
-        />
-      </div>
-      <div class="nav-container">
-        <NavBar />
-      </div> */}
-      
       <div id="album-form-container">
         <div className="album-form-wrapper">
-          <AlbumForm className="album-form" />
+          <AlbumForm
+          className="album-form" 
+          />
         </div>
       </div>
     </>
