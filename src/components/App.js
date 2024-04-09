@@ -14,7 +14,6 @@ function App() {
 
   return (
     <>
-    {/* <NavBar /> */}
     <div id="album-header">
       <img
         src="https://i.imgur.com/M5maHKl.png"
@@ -23,6 +22,7 @@ function App() {
     </div>
       {/* <h1>Classic Albums</h1>
       <br /> */}
+      <NavBar />
       <AlbumContainer albums={albums} />
       <AlbumForm /> 
     </>

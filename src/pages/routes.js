@@ -10,10 +10,6 @@ const routes = [
         errorElement: <ErrorPage />,
         children: [
              {
-                path: "/",
-                element: <Home />
-            }, 
-            {
                 path: "/albumform",
                 element: <AlbumForm />
             }
