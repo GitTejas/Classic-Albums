@@ -48,7 +48,7 @@ body {
   justify-content: center;
   align-items: flex-end; /* Align to the bottom */
   margin-bottom: -20px; /* Adjust based on desired spacing */
-  background-color: #ffffff;
+  background-color: #aa2323;
 }
 #album-collection {
   margin: 2rem auto; /* Center align */
