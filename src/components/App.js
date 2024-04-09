@@ -27,7 +27,6 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<AlbumContainer albums={albums} />} />
-        {/* Pass albums and setAlbums as props to FormDisplay */}
         <Route path="/form" element={<FormDisplay albums={albums} setAlbums={setAlbums} />} />
         <Route path="/about" element={<About />} />
       </Routes>
