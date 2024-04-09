@@ -7,7 +7,7 @@ import {Outlet} from "react-router-dom"
 function FormDisplay() {
   return (
     <>
-      <div id="album-header">
+      {/* <div id="album-header">
         <img
           src="https://i.imgur.com/M5maHKl.png"
           alt="albums header"
@@ -15,7 +15,8 @@ function FormDisplay() {
       </div>
       <div class="nav-container">
         <NavBar />
-      </div>
+      </div> */}
+      
       <div id="album-form-container">
         <div className="album-form-wrapper">
           <AlbumForm className="album-form" />
