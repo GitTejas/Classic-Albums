@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Header />
       <div className="nav-container">
-        <NavBar />
+      <NavBar />
       </div>
       <Routes>
         <Route path="/" element={<AlbumContainer albums={albums} />} />
