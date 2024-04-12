@@ -28,7 +28,7 @@
       "id": "4",
       "name": "Millennium",
       "artist": "Backstreet Boys",
-      "sales": 500000000,
+      "sales": 24000000,
       "trackCount": 12,
       "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"
     },
@@ -36,9 +36,17 @@
       "id": "5",
       "name": "The Dark Side of the Moon",
       "artist": "Pink Floyd",
-      "sales": 500000000,
+      "sales": 45000000,
       "trackCount": 12,
       "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+      "id": "d0a7",
+      "name": "Ruthless",
+      "artist": "Ace Hood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Ruthless.jpg",
+      "sales": "80000",
+      "trackCount": "8"
     }
   ]
 }
