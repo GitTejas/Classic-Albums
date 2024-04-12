@@ -20,6 +20,7 @@ function FormDisplay({ albums, setAlbums }) {
       setPostMade(true); // Set the postMade state to true after successful post
     })
   }
+
   return (
     <>
       <div id="album-form-container">

@@ -9,6 +9,7 @@ import ErrorPage from '../pages/ErrorPage';
 
 function App() {
   const [albums, setAlbums] = useState([]);
+  
 
   useEffect(() => {
     fetch("http://localhost:3000/albums")
