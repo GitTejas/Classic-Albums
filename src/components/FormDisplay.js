@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AlbumForm from './AlbumForm';
 import AlbumContainer from './AlbumContainer';
 
 function FormDisplay({ albums, setAlbums }) {
+  const [postMade, setPostMade] = useState(false);
+
   function onAddAlbum(newAlbum) {
     fetch("http://localhost:3000/albums", {
       method: "POST",
@@ -13,9 +15,11 @@ function FormDisplay({ albums, setAlbums }) {
       body: JSON.stringify(newAlbum)
     })
     .then(resp => resp.json())
-    .then(json => setAlbums([json, ...albums])) // Update the albums state
+    .then(json => {
+      setAlbums([json, ...albums]); // Update the albums state
+      setPostMade(true); // Set the postMade state to true after successful post
+    })
   }
-
   return (
     <>
       <div id="album-form-container">
@@ -23,7 +27,7 @@ function FormDisplay({ albums, setAlbums }) {
           <AlbumForm onAddAlbum={onAddAlbum} className="album-form" />
         </div>
       </div>
-      <AlbumContainer albums={albums} />
+      {postMade && <AlbumContainer albums={albums} />}
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AlbumContainer from './AlbumContainer';
+import Header from './Header';
 import NavBar from './NavBar';
 import FormDisplay from './FormDisplay';
 import About from '../pages/About';
@@ -16,12 +17,7 @@ function App() {
 
   return (
     <>
-      <div id="album-header">
-        <img
-          src="https://i.imgur.com/M5maHKl.png"
-          alt="albums header"
-        />
-      </div>
+        <Header />
       <div className="nav-container">
         <NavBar />
       </div>

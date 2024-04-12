@@ -34,8 +34,7 @@ function About() {
             Share an album that YOU deem as classic, and let's celebrate our
             diverse tastes in music together! Submit now and let the music
             discussions begin! Let's explore our
-            musical preferences together! Filtering: Arrange albums by sales
-            figures. Join us as we explore the intersection of
+            musical preferences together! Join us as we explore the intersection of
             album popularity and personal preference. Let's discuss!
           </p>
           <h3 className="about-subheader">Music Appreciation</h3>
