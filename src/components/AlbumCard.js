@@ -2,7 +2,7 @@ import React from "react";
 
 function AlbumCard({album}) {
   
-const {id, name, image, artist, sales, trackCount} = album
+const {name, image, artist, sales, trackCount} = album
 
   return (
     <div className="card">
