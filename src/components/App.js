@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AlbumContainer from './AlbumContainer';
 import Header from './Header';
 import NavBar from './NavBar';
 import FormDisplay from './FormDisplay';
 import About from '../pages/About';
+import ErrorPage from '../pages/ErrorPage';
 
 function App() {
   const [albums, setAlbums] = useState([]);
@@ -16,8 +17,8 @@ function App() {
   }, []);
 
   return (
-    <>
-        <Header />
+    <Router>
+      <Header />
       <div className="nav-container">
         <NavBar />
       </div>
@@ -25,8 +26,9 @@ function App() {
         <Route path="/" element={<AlbumContainer albums={albums} />} />
         <Route path="/form" element={<FormDisplay albums={albums} setAlbums={setAlbums} />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
-    </>
+    </Router>
   );
 }
 
