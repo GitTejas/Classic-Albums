@@ -15,8 +15,8 @@ function About() {
             universally acclaimed classic or your personal bias, all
             submissions are welcome here. Our frontend web application allows
             you to easily submit new albums and explore a curated list of
-            'classic' albums, determined by sales figures. Each entry includes
-            details such as the artist, album name, and track count. Don't
+            'classic' albums. Each entry includes
+            details such as the artist, album name, sales and track count. Don't
             hesitate to add your favorite album to the mix! Even if it hasn't
             earned widespread recognition as a "classic," your submission is
             valuable. Let's spark engaging discussions about overlooked gems
@@ -25,16 +25,14 @@ function About() {
             conversations among fellow music aficionados!.
           </p>
           <p>
-            With the Classic Album App you can perform album Submissions: Have
+            With the Classic Album App you can perform album submissions. Have
             we overlooked any albums? Perhaps you believe there are other albums
             even more deserving of the "classic" title than those currently
             featured here! We're eager to discover your musical preferences.
             Remember, music is subjective, so we welcome all musical biases.
             Share an album that YOU deem as classic, and let's celebrate our
             diverse tastes in music together! Submit now and let the music
-            discussions begin! Let's explore our
-            musical preferences together! Join us as we explore the intersection of
-            album popularity and personal preference. Let's discuss!
+            discussions begin!
           </p>
           <h3 className="about-subheader">Music Appreciation</h3>
           <p>
@@ -42,7 +40,7 @@ function About() {
             requests, or pull requests. Let's engage the music community in
             discussions about great music. Your input is invaluable in making
             this platform better for everyone. Join us in shaping the future
-            of music appreciation!!
+            of music appreciation!
           </p>
         </div>
       </div>
