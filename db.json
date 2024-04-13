@@ -39,6 +39,14 @@
       "sales": 45000000,
       "trackCount": 12,
       "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
+    },
+    {
+      "id": "487a",
+      "name": "Ruthless",
+      "artist": "Ace Hood",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Ruthless.jpg",
+      "sales": "5000000000",
+      "trackCount": "20"
     }
   ]
 }

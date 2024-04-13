@@ -16,7 +16,7 @@ function FormDisplay({ albums, setAlbums }) {
     })
     .then(resp => resp.json())
     .then(json => {
-      setAlbums([json, ...albums]); // Update the albums state
+      setAlbums([...albums, json]); // Update the albums state
       setPostMade(true); // Set the postMade state to true after successful post
     })
   }
