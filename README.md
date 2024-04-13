@@ -36,5 +36,3 @@ A heartfelt thank you to all the artists who have graced us with their incredibl
 
 ## Contributing
 Contribute to the Classic Albums App by submitting bugs, feature requests, or pull requests. Let's engage the music community in discussions about great music. Your input is invaluable in making this platform better for everyone. Join us in shaping the future of music appreciation!
-
-## Navigate the App (Demo)
