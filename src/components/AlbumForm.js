@@ -44,7 +44,7 @@ function AlbumForm({ onAddAlbum }) {
         <br />
         <input
           type="text"
-          name="name"
+          name="artist"
           value={artistName}
           placeholder="Enter the artist's name..."
           className="input-text"
