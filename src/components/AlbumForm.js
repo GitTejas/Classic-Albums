@@ -6,8 +6,8 @@ function AlbumForm({ onAddAlbum }) {
   const [image, setImage] = useState("");
   const [sales, setSales] = useState("");
   const [trackCount, setTrackCount] = useState("");
-const stateReturn = useState("")
-console.log(stateReturn)
+
+  
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -27,9 +27,7 @@ console.log(stateReturn)
     setImage("");
     setSales("");
     setTrackCount("");
-    console.log(trackCount)
   }
-  console.log(trackCount)
 
   return (
     <div className="container">
