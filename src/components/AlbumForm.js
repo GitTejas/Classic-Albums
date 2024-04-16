@@ -6,7 +6,8 @@ function AlbumForm({ onAddAlbum }) {
   const [image, setImage] = useState("");
   const [sales, setSales] = useState("");
   const [trackCount, setTrackCount] = useState("");
-
+const stateReturn = useState("")
+console.log(stateReturn)
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -26,7 +27,9 @@ function AlbumForm({ onAddAlbum }) {
     setImage("");
     setSales("");
     setTrackCount("");
+    console.log(trackCount)
   }
+  console.log(trackCount)
 
   return (
     <div className="container">
@@ -61,7 +64,7 @@ function AlbumForm({ onAddAlbum }) {
         <br />
         <input
           type="text"
-          name="image"
+          name="sales"
           value={sales}
           placeholder="Enter the album sales..."
           className="input-text"
@@ -70,7 +73,7 @@ function AlbumForm({ onAddAlbum }) {
         <br />
         <input
           type="text"
-          name="image"
+          name="trackCount"
           value={trackCount}
           placeholder="Enter number of tracks..."
           className="input-text"
